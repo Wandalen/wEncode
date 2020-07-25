@@ -3,5 +3,5 @@ let _ = require( 'wencode' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
