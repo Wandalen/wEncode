@@ -6,8 +6,8 @@ consistency:
     hash: d5f37647d8edff147d8e94950956a1b3
     size: 1655
   ../.im.will.yml: &ref_1
-    hash: 41627ba63ec34e2940d5685b11b62f56
-    size: 4676
+    hash: fcd666b4a8835a542b9d899e2940f702
+    size: 4680
 module:
   wEncode.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wencode
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wencode
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wencode
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: d5f37647d8edff147d8e94950956a1b3
         size: 1655
       ../.im.will.yml:
-        hash: 41627ba63ec34e2940d5685b11b62f56
-        size: 4676
+        hash: fcd666b4a8835a542b9d899e2940f702
+        size: 4680
